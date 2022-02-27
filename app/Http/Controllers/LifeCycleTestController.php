@@ -31,7 +31,7 @@ class LifeCycleTestController extends Controller
         $sample = app()->make('sample');
         $sample->run();
 
-        dd($test, app());
+        // dd($test, app());
     }
 }
 
